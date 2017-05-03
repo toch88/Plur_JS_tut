@@ -6,11 +6,12 @@ export class BaseElement{
     }
 
     appendToElement(el){
-        this.cretateElement();
+        console.log(this);
+        this.createElement();
         el.append(this.element);
     }
 
-    cretateElement(){
+    createElement(){
         let s = this.getElementString();
         this.element = $(s);
     }

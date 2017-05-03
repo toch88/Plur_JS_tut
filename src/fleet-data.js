@@ -1,7 +1,7 @@
 export let fleet = [
     {
-        //license: 'ABC123',
-        type: 'ddrone',
+        license: 'ABC123',
+        type: 'drone',
         model: 'Amazon 1250',
         airTimeHours: '6050',
         base: 'New York',
@@ -24,7 +24,7 @@ export let fleet = [
         latLong: '40.779423 -73.969411'
     },
     {
-       // license: 'AT9900',
+        license: 'AT9900',
         type: 'car',
         make: 'Tesla',
         model: 'Quick Transport',

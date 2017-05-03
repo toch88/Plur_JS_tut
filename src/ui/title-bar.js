@@ -42,7 +42,7 @@ export class TitleBar extends BaseElement{
                     </nav>
                 </div>
                 <main class="mdl-layout__content">
-                    <div class="page-content"><!-- Your content goes here --></div>
+                    <div class="page-content">Kupa</div>
                 </main>
                 </div>
                 `;
