@@ -1,15 +1,15 @@
-import {BaseElement} from './ui/base-element.js';
+import {Page} from './framework/page.js';
 import {Image} from './ui/image.js';
 import {Button} from './ui/button.js';
 import {App} from './app.js';
 
-export class HomePage extends BaseElement{
+export class HomePage extends Page{
     constructor(){
-        super();
+        super('Home');
     }
     
     createElement(){
-        console.log(this);
+        //console.log(this);
         super.createElement();
         
         let i=new Image('./images/drone.jpg');

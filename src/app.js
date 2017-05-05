@@ -3,6 +3,7 @@ import {FleetDataService} from './services/fleet-data-services.js';
 import $ from 'jquery';
 import {ApplicationBase} from './framework/application-base.js';
 import {HomePage} from './home-page.js';
+import {CarsPage} from './cars-page.js';
 
 export class App extends ApplicationBase{
     constructor(){
@@ -12,7 +13,7 @@ export class App extends ApplicationBase{
 
         this.addRoute('Home', new HomePage(), true);
         this.addRoute('Drones', null);
-        this.addRoute('Cars', null);
+        this.addRoute('Cars', new CarsPage());
         this.addRoute('Map', null);   
     }
 }
